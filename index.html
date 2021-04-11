@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Library App</title>
+  <meta name="description" content="Simple Library App">
+  <meta name="author" content="Dustin Christianson">
+
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <div id="background">
+    <div id="addBookHolder">
+    <form id="addBookForm">
+        <label for="bTitle">Book Title</label><br>
+        <input type="text" id="bTitle" name="bTitle"><br>
+        <label for="bAuthor">Author Name</label><br>
+        <input type="text" id="bAuthor" name="bAuthor"><br>
+        <label for="bPages">Number of Pages</label><br>
+        <input type="text" id="bPages" name="bPages"><br>
+        <label for="bIsRead">Have you read it?</label><br>
+        <input type="text" id="bIsRead" name="bIsRead"><br>
+        <label for="bNote">Notes:</label><br>
+        <input type="text" id="bNote" name="bNote"><br>
+        <input type="button" onclick="addBookToLibrary(bTitle, bAuthor, bPages, bIsRead, bNote)" value="Add Book to Library">
+        
+      </form>
+    </div>
+    <div id="libraryHeader"> Library:
+    <div id="libraryDisplay">
+      
+    </div>
+    </div>
+  </div>
+
+
+
+  <script src="./main.js"></script>
+</body>
+</html>

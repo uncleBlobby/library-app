@@ -1,0 +1,26 @@
+#background {
+    display: flex;
+    background-color: cornsilk;
+}
+
+#addBookHolder {
+    background-color: burlywood;
+    height: auto;
+    width:fit-content;
+    border-style: solid;
+    border-width: 1px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#libraryDisplay {
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.bookCard {
+    width: fit-content;
+    border-style: dotted;
+    border-width: 1px;
+}
